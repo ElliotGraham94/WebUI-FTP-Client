@@ -1,0 +1,28 @@
+{
+  "name": "web-ftp",
+  "version": "0.0.1",
+  "description": "web interface to locally hosted ftp client",
+  "main": "download.js",
+  "scripts": {
+    "test": "nodejs download.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliotGraham94/WebUI-FTP-Client.git"
+  },
+  "author": "Elliot Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElliotGraham94/WebUI-FTP-Client/issues"
+  },
+  "homepage": "https://github.com/ElliotGraham94/WebUI-FTP-Client#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "minimist": "^1.2.0",
+    "remotesync": "^1.0.1",
+    "socket.io": "^1.5.1"
+  }
+}
