@@ -23,6 +23,7 @@
     "http": "0.0.0",
     "minimist": "^1.2.0",
     "remotesync": "^1.0.1",
+    "jsftp": "^1.5.5",
     "socket.io": "^1.5.1"
   }
 }
